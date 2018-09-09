@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
     defaultConfig {
         applicationId "org.swsd.stardust"
         minSdkVersion 21
-        targetSdkVersion 26
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -28,23 +28,23 @@ dependencies {
     //外部依赖项
 
 
-    compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:appcompat-v7:27.1.1'
+    compile 'com.android.support.constraint:constraint-layout:1.1.2'
     compile 'org.litepal.android:core:1.6.0'
-    compile 'com.android.support:design:26.+'
+    compile 'com.android.support:design:27.1.1'
     compile 'de.hdodenhof:circleimageview:2.2.0'
-    compile 'com.android.support:recyclerview-v7:26.+'
-    compile 'com.android.support:cardview-v7:26.+'
+    compile 'com.android.support:recyclerview-v7:27.1.1'
+    compile 'com.android.support:cardview-v7:27.1.1'
     compile 'com.github.bumptech.glide:glide:3.7.0'
-    compile 'com.squareup.okhttp3:okhttp:3.9.0'
+    compile 'com.squareup.okhttp3:okhttp:3.10.0'
     compile 'com.google.code.gson:gson:2.8.2'
-    compile 'com.qiniu:qiniu-java-sdk:7.2.+'
+    compile 'com.qiniu:qiniu-java-sdk:7.2.14'
     compile 'org.jsoup:jsoup:1.11.1'
     compile 'com.orhanobut:hawk:2.0.1'
     compile 'cn.carbswang.android:NumberPickerView:1.1.1'
     compile 'com.sun.mail:android-mail:1.6.0'
     compile 'com.sun.mail:android-activation:1.6.0'
-    compile 'com.zhuge.analysis:zhugeio:latest.integration'
+    compile 'com.zhuge.analysis:zhugeio:3.3.2'
     compile 'com.github.mr5:icarus:0.1.14'
     compile 'com.ufreedom.uikit:FloatingTextLibrary:0.2.0'
     compile 'com.github.jd-alexander:LikeButton:0.1.3'

@@ -1,17 +1,11 @@
 package org.swsd.stardust.presenter;
 
-import android.app.Activity;
-import android.app.DatePickerDialog;
-import android.content.Context;
-import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.os.Message;
-import android.util.Log;
-import android.widget.DatePicker;
-import android.widget.Toast;
-
-import com.qiniu.util.Json;
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.List;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -24,18 +18,12 @@ import org.swsd.stardust.model.bean.UserBean;
 import org.swsd.stardust.presenter.adapter.HomeAdapter;
 import org.swsd.stardust.util.ErrorCodeJudgment;
 import org.swsd.stardust.util.UpdateTokenUtil;
-import org.swsd.stardust.view.fragment.HomeFragment;
 import org.swsd.stardust.view.fragment.IHomeView;
 
-import java.io.IOException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
-import java.util.List;
-import java.util.Random;
-import java.util.logging.Handler;
+import android.app.Activity;
+import android.app.DatePickerDialog;
+import android.content.Context;
+import android.util.Log;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
